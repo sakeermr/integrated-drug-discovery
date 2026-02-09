@@ -1,5 +1,8 @@
 name: 🧬 Complete Drug Discovery Pipeline (Trac → PharmacoNet)
-
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
 on:
   workflow_dispatch:
     inputs:
